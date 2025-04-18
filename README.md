@@ -2,6 +2,15 @@
 
 A privacy-focused file conversion tool that runs entirely in your browser. No uploads, no server-side processing - your files never leave your device.
 
+## Project Status
+
+**Phase 1 Complete!** ✅
+- Project setup and core UI implementation finished
+- All basic UI components implemented
+- File handling mechanics in place
+
+**Coming Next:** Phase 2 - Implementing the actual conversion logic using WebAssembly
+
 ## Features
 
 - Privacy-first: All file conversions happen locally in your browser
@@ -29,6 +38,7 @@ A privacy-focused file conversion tool that runs entirely in your browser. No up
 - Uses WebAssembly for high-performance file conversion
 - Web Workers for non-blocking UI during conversion tasks
 - 100% client-side processing
+- UI components built with Tailwind CSS and ShadCN
 
 ## Development
 

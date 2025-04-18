@@ -10,6 +10,13 @@ declare module '*.worker.js' {
   export default WebpackWorker;
 }
 
+declare module '*.worker.ts' {
+  class WebpackWorker extends Worker {
+    constructor();
+  }
+  export default WebpackWorker;
+}
+
 declare module '*.wasm' {
   const content: any;
   export default content;

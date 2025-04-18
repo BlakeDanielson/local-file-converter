@@ -8,10 +8,10 @@
 - [x] **Setup-4:** Implement basic application layout/shell.
 - [x] **UI-1 (F1):** Implement file selection UI (Drag-and-drop area).
 - [x] **UI-2 (F1):** Implement file selection UI (Browse button - `<input type="file">`).
-- [ ] **UI-3 (F2):** Implement UI for selecting target output format (dynamically populated).
-- [ ] **UI-4 (F5):** Implement basic UI for progress indication (placeholder for spinner/percentage).
-- [ ] **UI-5 (F6):** Implement UI element to display/trigger download link.
-- [ ] **UI-6 (F7):** Implement basic UI area for displaying error messages.
+- [x] **UI-3 (F2):** Implement UI for selecting target output format (dynamically populated).
+- [x] **UI-4 (F5):** Implement basic UI for progress indication (placeholder for spinner/percentage).
+- [x] **UI-5 (F6):** Implement UI element to display/trigger download link.
+- [x] **UI-6 (F7):** Implement basic UI area for displaying error messages.
 - [x] **Core-1 (F3):** Implement client-side file reading (metadata) via File API.
 - [x] **Core-2 (F3):** Implement client-side file size validation (< 100MB).
 - [x] **Core-3:** Implement basic Web Worker setup and communication channel (main thread <-> worker).
@@ -21,10 +21,11 @@
 
 *(Note: Each conversion requires finding/building/integrating JS/WASM, implementing worker logic, updating UI)*
 
+- [x] **Core-5:** Implement base conversion worker architecture and worker factory.
+- [x] **Conv-3 (JPG -> PNG):** Implement conversion logic using Canvas API.
+- [x] **Conv-4 (PNG -> JPG):** Implement conversion logic using Canvas API.
 - [ ] **Conv-1 (PDF -> DOCX):** Implement conversion logic.
 - [ ] **Conv-2 (DOCX -> PDF):** Implement conversion logic.
-- [ ] **Conv-3 (JPG -> PNG):** Implement conversion logic.
-- [ ] **Conv-4 (PNG -> JPG):** Implement conversion logic.
 - [ ] **Conv-5 (HEIC -> JPG):** Implement conversion logic.
 - [ ] **Conv-6 (JPG -> PDF):** Implement conversion logic (single image to single page).
 - [ ] **Conv-7 (PNG -> PDF):** Implement conversion logic (single image to single page, transparency).

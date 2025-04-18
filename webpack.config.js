@@ -61,8 +61,13 @@ module.exports = {
         type: 'asset/resource'
       },
       {
-        test: /\.worker\.js$/,
-        use: { loader: 'worker-loader' }
+        test: /\.worker\.(js|ts)$/,
+        use: { 
+          loader: 'worker-loader',
+          options: {
+            filename: '[name].[contenthash].js'
+          }
+        }
       }
     ]
   },
